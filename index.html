@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wuaocoin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/png/Wlogo.png" type="image/x-icon">
+    <!-- slick min css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- slick theam min css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="overflow-hidden">
+    <div id="preloader_box"
+        class="prolader_bg d-flex align-items-center justify-content-center min-vh-100 position-absolute top-0 end-0 z-3 w-100">
+        <h1 class="text-white fw-semibold fs-5">preloader</h1>
+    </div>
+    <header class="position-relative">
+        <nav class="grandient min-vh-100">
+            <img class="position-absolute img_top_right_coner" src="./assets/images/png/TOPRIGHTCORNER.png"
+                alt="TOPRIGHTCORNER">
+            <div class="container_modify">
+                <div class="d-flex justify-content-between py-4 align-items-center ">
+                    <div class="z-1"><span><img class="m-0" src="./assets/images/png/Wuaofulllogo.png"
+                                alt="Wuaocoin"></span></div>
+                    <div class="d-flex m-0 align-items-center">
+                        <label for="iconbox" class="z-index">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                        <input type="checkbox" id="iconbox" hidden class="d-none">
+                        <div class="d-flex sm-screen gap_5">
+                            <ul class="d-flex m-0 align-items-center gap-4 p-0">
+                                <li><a class="ff_Montserrat font_color font_size fw-semibold" href="#">ICO</a></li>
+                                <li><a class="ff_Montserrat font_color font_size fw-semibold" href="#">WHITEPAPER</a>
+                                </li>
+                            </ul>
+                            <ul class="gap_icons m-0 d-flex">
+                                <li><a href="https://discord.com/"><img src="./assets/images/png/Discordyellow.png"
+                                            alt="Discord"></a></li>
+                                <li><a href="https://twitter.com/"><img src="./assets/images/png/Twitteryellow.png"
+                                            alt="Twitter"></a></li>
+                                <li><a href="https://web.telegram.org/"><img src="./assets/images/png/Telegram.png"
+                                            alt="Telegram"></a></li>
+                                <li><a href="https://in.indeed.com/"><img class="margin_rigth"
+                                            src="./assets/images/png/in.png" alt="in"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="rounded-pill pill  d-flex justify-content-between sm-screen">
+                            <span><a href="#"><img src="./assets/images/png/Earth.png" alt="Earth"></a></span>
+                            <span><a href="#"><img src="./assets/images/png/english.png" alt="english"></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container_modify container overflow-hidden">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <div class="d-flex justify-content-end"><img class="img_arrow"
+                                src="./assets/images/png/Arrow-.png" alt="Arrow">
+                        </div>
+                        <div class="margin_top_p">
+                            <p class="ff_Montserrat fw-semibold font_color font_size_2 mb-0">Welcome to</p>
+                            <p class="ff_Montserrat fw_black font_size_3 font_color mb-0">The Future of E-Commerce</p>
+                            <p class="ff_Montserrat fw-medium font_color font_size_4 mb-0">A multi-purpose token to
+                                improve
+                                digital sales and purchases</p>
+                        </div>
+                        <div class="position-absolute">
+                            <img src="./assets/images/png/Beside-Button-arrow.png" alt="Arrow">
+                        </div>
+                        <button class="button_1 mt-5 mb-5">How To Buy</button>
+                        <button class="button_1 mt-5 mb-5">Read Whitepaper</button>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <img class="margin_top_120 w-100" src="./assets/images/png/Paper-bags.png" alt="Bag">
+                    </div>
+                    <!-- <div class="position-absolute">
+                        <img class="img_middle" src="./assets/images/png/Middle-of-herosection.png" alt="Cloud">
+                        <img class="img_middle_down" src="./assets/images/png/Middle-down.png" alt="">
+                    </div> -->
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row mt-5 pt-5 align-items-center">
+                <div class="col-lg-6 col-12">
+                    <div class="our_project d-flex align-items-center justify-content-center">
+                        <div class="position-relative">
+                            <img class="img_logo" src="./assets/images/png/logo-section-2.png" alt="logo">
+                            <img class="position-absolute img_purple_key"
+                                src="./assets/images/png/Circle_image_bottomLeft.png" alt="Blue-key">
+                            <img class="position-absolute img_blue_key"
+                                src="./assets/images/png/Circle_image_topLeft_blue.png" alt="Blue">
+                            <img class="position-absolute img_pink_key"
+                                src="./assets/images/png/Circle_image_bottomRight_pink.png" alt="pink">
+                            <img class="position-absolute img_red_key"
+                                src="./assets/images/png/Circle_image_topRight_red.png" alt="Red">
+                            <img class="position-absolute img_orange_key"
+                                src="./assets/images/png/circle_image_top_orange.png" alt="orange">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="d-flex align-items-lg-end align-items-center flex-column">
+                        <div class="text-center text-lg-start margin_left_62 margin_top_130">
+                            <p class="font_size_5 ff_Montserrat font_color_2 fw-bold mb-3 margin_ top_p_2">Our Project
+                            </p>
+                            <p class="font_size_4 ff_Montserrat fw-normal mb-0 font_color_3 w-447_p">Wuaocoin is the
+                                first
+                                project in the TechFi category that allows users multiple options to have
+                                utility and usability in
+                                the ecosystem, its time to change the way of seeing the purchases and sales of products
+                                and
+                                services within an
+                                multilateral electronic commerce platform using crypto technology.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="position-relative margin_bottom_section">
+        <img class="img_arrow_2 position-absolute" src="./assets/images/png/Arrow-2.png" alt="Arrow">
+        <div class="container_modify">
+            <div class="d-flex justify-content-center">
+                <p class="fw-bold font_size_5 ff_Montserrat margin_bottom_p font_color_2 margin_top_p">Benefits</p>
+            </div>
+            <div class="global_slider">
+                <div class="mx-0 d-flex flex-column align-items-center justify-content-center px-3">
+                    <img class="bubble" src="./assets/images/png/Ecommerce-webpage-pana1.png" alt="Bubble">
+                    <p class="p_2 font_color_3 fw-normal font_size_4 mb-0 mt-4 ff_Montserrat text_align_center width_p">
+                        Services,
+                        Products and Community
+                        All in one place!</p>
+                </div>
+                <div class="d-flex flex-column align-items-center justify-content-center px-3">
+                    <img class="bubble" src="./assets/images/png/Ecommerce-checkout-laptop.png" alt="Bubble">
+                    <p
+                        class="p_2 font_color_3 fw-normal font_size_4 mb-0 mt-4 ff_Montserrat text_align_center width_p_2">
+                        Selling
+                        in crypto
+                        will no longer be complicated, it will be safe and reliable.</p>
+                </div>
+                <div class="d-flex flex-column align-items-center justify-content-center px-3">
+                    <img class="bubble" src="./assets/images/png/Ecommerce-Discount.png" alt="Bubble">
+                    <p
+                        class="p_2 font_color_3 fw-normal font_size_4 mb-0 mt-4 ff_Montserrat text_align_center width_p_3">
+                        Buying
+                        and getting a real discount is possible? Join and check it out.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="background_orange container-fluid">
+        <div class="row text-start w-100 justify-content-center ">
+            <div class="col-lg-4 col-sm-8 mx-auto">
+                <div>
+                    <img class="img_Amazon w-100" src="./assets/images/png/Amazon-page.png" alt="Amazon">
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="text_align_center">
+                    <h2 class="ff_Montserrat fw-bold font_color font_size_5 margin_top_70">Whitepaper</h2>
+                    <p class="ff_Montserrat fw-semibold font_color font_size_4 width_p_577">We want you to know our
+                        vision
+                        we
+                        leave you our
+                        whitepaper and now be a part of the digital
+                        transformation.
+                    </p>
+                    <button class="button_1">Read WhitePaper</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-8 mx-auto">
+                <div>
+                    <img class="img_Amazon w-100" src="./assets/images/png/Amazon-page-2.png" alt="Amazon">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="position-relative pt-5 mt-5">
+        <div class="container_modify">
+            <div>
+                <div class="d-flex justify-content-center align-items-center flex-column">
+                    <h3 class="ff_Montserrat font_size_5 font_color_2 fw-bold text_align_center">RoadMap</h3>
+                    <p
+                        class="ff_Montserrat font_size_4 font_color_3 fw-normal text_align_center width_p_4 mt-3 margin_bottom_p_2">
+                        Knowing
+                        our values, understanding the business idea and then, gradually, presenting the plans to
+                        the public is our way
+                        of doing things.</p>
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img class="width_roadmap" src="./assets/images/png/Roadmap.png" alt="RoadMap">
+                </div>
+            </div>
+        </div>
+
+        <div class="position-absolute">
+            <img class="img_Roadmap_cloud" src="./assets/images/png/Road-map-cloud.png" alt="Cloud">
+            <!-- <img class="img_Roadmap_arrow" src="./assets/images/png/Roadmap-aarow.png" alt="Arrow"> -->
+        </div>
+        <!-- Slider -->
+        <div class="margin_top_slider Road_map ">
+            <div>
+                <img src="./assets/images/png/Yellow-box.png" alt="Yellow-box">
+            </div>
+            <div>
+                <img src="./assets/images/png/Red-box.png" alt="Red-box">
+            </div>
+            <div>
+                <img src="./assets/images/png/Blue-box.png" alt="Blue-box">
+            </div>
+            <div>
+                <img src="./assets/images/png/Dark-blue-box.png" alt="Dark-blue-box">
+            </div>
+            <div>
+                <img src="./assets/images/png/Purple-box.png" alt="Purple-box">
+            </div>
+            <div>
+                <img src="./assets/images/png/Pink-box.png" alt="Pink-box">
+            </div>
+        </div>
+        <!-- Ends Here -->
+        <div>
+            <img class="img_Roadmap_cloud_2" src="./assets/images/png/Roadmap-cloud-2.png" alt="Cloud">
+        </div>
+    </section>
+    <section class="background_orange container-fluid">
+        <div class="container_modify">
+            <div class="text_align_center d-flex justify-content-center align-items-center flex-column">
+                <h3 class="ff_Montserrat fw-bold font_size_6 font_color width_h3 mt-5 pt-5">Public Sale 5% in ERC20 &
+                    BEP20, 100%
+                    for the Community</h3>
+                <div id="countdown-container" data-aos="zoom-in" class="margin_top_timer mb-5">
+                    <div>
+                        <div id="days">0</div>
+                        <p class="ff_Montserrat fw-medium fs_md text-white text-center mt-1">Days</p>
+                    </div>
+                    <p class="ff_Montserrat fw-medium fs_xl text-white mb-5 mx-1">:</p>
+                    <div>
+                        <div id="hours">0</div>
+                        <p class="ff_Montserrat fw-medium fs_md text-white text-center mt-1">Hours</p>
+                    </div>
+                    <p class="ff_Montserrat fw-medium fs_xl text-white mb-5 mx-1">:</p>
+                    <div>
+                        <div id="minutes">0</div>
+                        <p class="ff_Montserrat fw-medium fs_md text-white text-center mt-1">Minute</p>
+                    </div>
+                    <p class="ff_Montserrat fw-medium fs_xl text-white mb-5 mx-1">:</p>
+                    <div>
+                        <div id="seconds">0</div>
+                        <p class="ff_Montserrat fw-medium fs_md text-white text-center mt-1">Second</p>
+                    </div>
+                </div>
+                <button class="button_2 margin_bottom_button">BUY WUAO</button>
+            </div>
+        </div>
+    </section>
+    <section class="position-relative">
+        <div class="position-absolute">
+            <img src="./assets/images/png/Tokenomics-cloud.png" alt="Cloud">
+        </div>
+        <div class="container_modify">
+            <div class="text_align_center d-flex justify-content-center align-items-center flex-column">
+                <h4 class="ff_Montserrat font_size_5 font_color_2 fw-bold text_align_center margin_top_Tokenomics">
+                    Tokenomics</h4>
+                <div class="position-relative">
+                    <img class="img_Tokenomics" src="./assets/images/png/Tokenomics.png" alt="Tokenomics">
+                    <p class="ff_Montserrat font_size_2 font_color_2 fw-bold mb-3 position_Team text-start">Team</p>
+                    <p
+                        class="ff_Montserrat font_size_2 font_color_2 fw-bold mb-3 width_p_195 position_Buyer text-start">
+                        Buyers/holders/ community</p>
+                    <p
+                        class="ff_Montserrat font_size_2 font_color_2 fw-bold mb-3 width_p_180 position_Subdivided text-start">
+                        Subdivided into 5% Founders</p>
+                    <p class="ff_Montserrat font_size_2 font_color_2 fw-bold mb-0 position_Workers text-start">Workers
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- <div class="position-absolute">
+            <img src="./assets/images/png/Tokenomics-cloud-2.png" alt="Cloud">
+        </div> -->
+    </section>
+    <section class="background_orange_2">
+        <div
+            class="text_align_center d-flex justify-content-center align-items-center flex-column margin_top_Partnership_Section">
+            <h5 class="ff_Montserrat fw-bold font_color font_size_5 margin_top_Partnership">Partnership</h5>
+        </div>
+        <div class="Unicef_slider mt-5 overflow-hidden">
+            <img class="margin_bottom_Unicef_slider" src="./assets/images/png/Unicef-slider.png" alt="Unicef">
+            <img class="margin_bottom_Unicef_slider" src="./assets/images/png/Unicef-slider.png" alt="Unicef">
+            <img class="margin_bottom_Unicef_slider" src="./assets/images/png/Unicef-slider.png" alt="Unicef">
+            <img class="margin_bottom_Unicef_slider" src="./assets/images/png/Unicef-slider.png" alt="Unicef">
+            <img class="margin_bottom_Unicef_slider" src="./assets/images/png/Unicef-slider.png" alt="Unicef">
+            <img class="margin_bottom_Unicef_slider" src="./assets/images/png/Unicef-slider.png" alt="Unicef">
+            <img class="margin_bottom_Unicef_slider" src="./assets/images/png/Unicef-slider.png" alt="Unicef">
+        </div>
+    </section>
+    <footer>
+        <div class="container_modify">
+            <div class="row margin_top_Footer justify-content-between">
+                <div class="col-lg-3 col-6">
+                    <img src="./assets/images/png/Wuaofulllogo.png" alt="Wuaocoin">
+                    <p class="ff_Montserrat font_size font_color_4 mb-0 fw-normal width_p_footer mt-5 mb-4">Welcome to
+                        The Future
+                        of the Market. The world's first Global TechFi Platform</p>
+                    <div class="pointer">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="14.9309" cy="14.9309" r="14.9309" fill="url(#paint0_linear_0_2306)" />
+                            <path
+                                d="M20.6483 9.77512C19.7062 9.33596 18.6862 9.01721 17.6237 8.83304C17.6144 8.83274 17.6051 8.83449 17.5965 8.83816C17.588 8.84183 17.5803 8.84734 17.5741 8.85429C17.4466 9.08804 17.2979 9.39262 17.1987 9.62637C16.0717 9.45637 14.9257 9.45637 13.7987 9.62637C13.6995 9.38554 13.5508 9.08804 13.4162 8.85429C13.4091 8.84012 13.3879 8.83304 13.3666 8.83304C12.3041 9.01721 11.2912 9.33596 10.342 9.77512C10.3349 9.77512 10.3279 9.78221 10.3208 9.78929C8.39412 12.6722 7.86287 15.4772 8.12495 18.2539C8.12495 18.268 8.13203 18.2822 8.1462 18.2893C9.4212 19.2243 10.6466 19.791 11.8579 20.1664C11.8791 20.1735 11.9004 20.1664 11.9074 20.1522C12.1908 19.7626 12.4458 19.3518 12.6654 18.9197C12.6795 18.8914 12.6654 18.863 12.637 18.856C12.2333 18.7001 11.8508 18.516 11.4754 18.3035C11.447 18.2893 11.447 18.2468 11.4683 18.2255C11.5462 18.1689 11.6241 18.1051 11.702 18.0485C11.7162 18.0343 11.7374 18.0343 11.7516 18.0414C14.1883 19.1535 16.8162 19.1535 19.2245 18.0414C19.2387 18.0343 19.2599 18.0343 19.2741 18.0485C19.352 18.1122 19.4299 18.1689 19.5079 18.2326C19.5362 18.2539 19.5362 18.2964 19.5008 18.3105C19.1324 18.5301 18.7429 18.7072 18.3391 18.863C18.3108 18.8701 18.3037 18.9055 18.3108 18.9268C18.5374 19.3589 18.7924 19.7697 19.0687 20.1593C19.0899 20.1664 19.1112 20.1735 19.1324 20.1664C20.3508 19.791 21.5762 19.2243 22.8512 18.2893C22.8654 18.2822 22.8724 18.268 22.8724 18.2539C23.1841 15.0451 22.3554 12.2614 20.6766 9.78929C20.6695 9.78221 20.6624 9.77512 20.6483 9.77512ZM13.0337 16.561C12.3041 16.561 11.6949 15.888 11.6949 15.0593C11.6949 14.2305 12.2899 13.5576 13.0337 13.5576C13.7845 13.5576 14.3795 14.2376 14.3724 15.0593C14.3724 15.888 13.7774 16.561 13.0337 16.561ZM17.9708 16.561C17.2412 16.561 16.632 15.888 16.632 15.0593C16.632 14.2305 17.227 13.5576 17.9708 13.5576C18.7216 13.5576 19.3166 14.2376 19.3095 15.0593C19.3095 15.888 18.7216 16.561 17.9708 16.561Z"
+                                fill="white" />
+                            <defs>
+                                <linearGradient id="paint0_linear_0_2306" x1="14.9228" y1="-2.69145" x2="14.9228"
+                                    y2="26.7422" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FFBA3B" />
+                                    <stop offset="0.5315" stop-color="#FFA53B" />
+                                    <stop offset="1" stop-color="#FF983B" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="14.9769" cy="14.9309" r="14.9309" fill="url(#paint0_linear_0_2310)" />
+                            <path
+                                d="M21.8506 10.6202C21.3426 10.8394 20.7898 10.9971 20.2203 11.0585C20.8115 10.7073 21.2543 10.1524 21.4654 9.49796C20.9107 9.82798 20.3029 10.0594 19.6692 10.1819C19.4043 9.89876 19.0839 9.67317 18.728 9.51922C18.3721 9.36527 17.9884 9.28626 17.6006 9.28712C16.0317 9.28712 14.77 10.5588 14.77 12.1193C14.77 12.3385 14.7966 12.5576 14.8398 12.7685C12.4906 12.6456 10.3955 11.5233 9.00265 9.80508C8.74885 10.2386 8.61586 10.7322 8.61749 11.2345C8.61749 12.2173 9.1172 13.0839 9.87921 13.5936C9.43015 13.5759 8.9916 13.4524 8.59923 13.2333V13.2682C8.59923 14.6444 9.57208 15.785 10.8687 16.0473C10.6252 16.1105 10.3748 16.1429 10.1233 16.1436C9.93898 16.1436 9.76466 16.1253 9.58868 16.1004C9.94728 17.2227 10.9915 18.0378 12.235 18.0644C11.2621 18.8264 10.0436 19.2746 8.72042 19.2746C8.48302 19.2746 8.26388 19.2663 8.03644 19.2398C9.29152 20.0449 10.7807 20.5098 12.3844 20.5098C17.5906 20.5098 20.4395 16.1967 20.4395 12.453C20.4395 12.3302 20.4395 12.2073 20.4312 12.0845C20.9823 11.6811 21.4654 11.1814 21.8506 10.6202Z"
+                                fill="white" />
+                            <defs>
+                                <linearGradient id="paint0_linear_0_2310" x1="14.9688" y1="-2.69145" x2="14.9688"
+                                    y2="26.7422" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FFBA3B" />
+                                    <stop offset="0.5315" stop-color="#FFA53B" />
+                                    <stop offset="1" stop-color="#FF983B" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="15.023" cy="14.9309" r="14.9309" fill="url(#paint0_linear_0_2314)" />
+                            <path
+                                d="M21.9856 9.27418L19.7411 19.8593C19.5716 20.6063 19.1302 20.7922 18.5028 20.4405L15.0826 17.9203L13.4325 19.5076C13.2498 19.6904 13.0973 19.8429 12.7451 19.8429L12.991 16.36L19.3294 10.6326C19.6051 10.3871 19.2694 10.2506 18.9012 10.4966L11.0653 15.4308L7.69182 14.3747C6.95817 14.1457 6.94488 13.6411 7.84482 13.2888L21.0395 8.2053C21.6504 7.97633 22.1849 8.3413 21.9856 9.27471V9.27418Z"
+                                fill="white" />
+                            <defs>
+                                <linearGradient id="paint0_linear_0_2314" x1="15.0149" y1="-2.69145" x2="15.0149"
+                                    y2="26.7422" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FFBA3B" />
+                                    <stop offset="0.5315" stop-color="#FFA53B" />
+                                    <stop offset="1" stop-color="#FF983B" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="15.0691" cy="14.9309" r="14.9309" fill="url(#paint0_linear_0_2318)" />
+                            <mask id="mask0_0_2318" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="8" y="8"
+                                width="15" height="14">
+                                <path
+                                    d="M9.61184 10.8718C10.4257 10.8718 11.0855 10.2289 11.0855 9.4359C11.0855 8.64287 10.4257 8 9.61184 8C8.79794 8 8.13815 8.64287 8.13815 9.4359C8.13815 10.2289 8.79794 10.8718 9.61184 10.8718Z"
+                                    fill="white" />
+                                <path
+                                    d="M8.13815 13.0256H11.0855V22H8.13815V13.0256ZM14.0329 16.4359V22H16.6118V16.9744C16.6118 16.0769 17.1645 15.359 18.0855 15.359C19.0066 15.359 19.5592 16.2564 19.5592 16.9744V22H22.1382V16.4359C22.1382 15.359 20.8487 13.0256 18.0855 13.0256C15.3224 13.0256 14.0329 15.359 14.0329 16.4359Z"
+                                    fill="white" />
+                            </mask>
+                            <g mask="url(#mask0_0_2318)">
+                                <path d="M6.29611 6.56396H23.9803V23.7947H6.29611V6.56396Z" fill="white" />
+                            </g>
+                            <defs>
+                                <linearGradient id="paint0_linear_0_2318" x1="15.061" y1="-2.69145" x2="15.061"
+                                    y2="26.7422" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FFBA3B" />
+                                    <stop offset="0.5315" stop-color="#FFA53B" />
+                                    <stop offset="1" stop-color="#FF983B" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="row">
+                        <div class="col-sm-4 col-6">
+                            <ul>
+                                <li><a class="ff_Montserrat fw-bold font_color_2 font_size_4" href="#">Documents</a>
+                                </li>
+                                <li><a class="ff_Montserrat fw-normal font_color_3 font_size" href="#">WhitePaper</a>
+                                </li>
+                                <li><a class="ff_Montserrat fw-normal font_color_3 font_size" href="#">Customers</a>
+                                </li>
+                                <li><a class="ff_Montserrat fw-normal font_color_3 font_size" href="#">Business</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2 col-6">
+                            <ul>
+                                <li><a class="ff_Montserrat fw-bold font_color_2 font_size_4" href="#">Quick Links</a>
+                                </li>
+                                <li><a class="ff_Montserrat fw-normal font_color_3 font_size" href="#">Home</a></li>
+                                <li><a class="ff_Montserrat fw-normal font_color_3 font_size" href="#">About Us</a></li>
+                                <li><a class="ff_Montserrat fw-normal font_color_3 font_size" href="#">Benefits</a></li>
+                                <li><a class="ff_Montserrat fw-normal font_color_3 font_size" href="#">IOC</a></li>
+                                <li><a class="ff_Montserrat fw-normal font_color_3 font_size" href="#">RoadMap</a></li>
+                                <li><a class="ff_Montserrat fw-normal font_color_3 font_size" href="#">Tokenomics</a>
+                                </li>
+                                <li><a class="ff_Montserrat fw-normal font_color_3 font_size" href="#">Partnership</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-6">
+                            <ul>
+                                <li><a class="ff_Montserrat fw-bold font_color_2 font_size_4" href="#">Company</a></li>
+                                <li><a class="ff_Montserrat fw-normal font_color_3 font_size" href="#">WUAOCOIN</a></li>
+                                <li><a class="ff_Montserrat fw-normal font_color_3 font_size" href="#">WUAOSHOP</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <!-- JQUEARY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- slick min js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        setTimeout(() => {
+            const box = document.getElementById("preloader_box")
+            box.classList.add("d_none_preloader")
+            document.body.classList.remove("overflow-hidden");
+        }, 3000);
+        // ============================================
+        $('.global_slider').slick({
+            infinite: true,
+            dots: false,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            infinite: true,
+            responsive: [
+
+                {
+                    breakpoint: 992,
+                    settings: {
+                        arrows: false,
+                        dots: true,
+                        centerMode: true,
+                        autoplay: false,
+                        centerPadding: '40px',
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        dots: true,
+                        centerMode: true,
+                        autoplay: false,
+                        centerPadding: '10px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+        $('.Road_map').slick({
+            infinite: true,
+            dots: false,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            infinite: true,
+            responsive: [
+
+                {
+                    breakpoint: 992,
+                    settings: {
+                        arrows: false,
+                        dots: true,
+                        centerMode: true,
+                        autoplay: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        dots: true,
+                        centerMode: true,
+                        autoplay: true,
+                        centerPadding: '40px',
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        arrows: false,
+                        dots: true,
+                        centerMode: true,
+                        autoplay: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+        $('.Unicef_slider').slick({
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            infinite: true,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 4
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 2
+                    }
+                }
+            ]
+        });
+        const countdownContainer = document.getElementById("countdown-container");
+
+        const targetDate = new Date("2024-01-01T23:59:59").getTime();
+
+        function startCountdown() {
+            const currentDate = new Date().getTime();
+
+            const timeRemaining = targetDate - currentDate;
+            const daysElement = document.getElementById("days");
+            const hoursElement = document.getElementById("hours");
+            const minutesElement = document.getElementById("minutes");
+            const secondsElement = document.getElementById("seconds");
+            let days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+            let hours = Math.floor(
+                (timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+            );
+            let minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+            let seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+            hours = String(hours).padStart(2, "0");
+            minutes = String(minutes).padStart(2, "0");
+            seconds = String(seconds).padStart(2, "0");
+            daysElement.textContent = days;
+            hoursElement.textContent = hours;
+            minutesElement.textContent = minutes;
+            secondsElement.textContent = seconds;
+        }
+        setInterval(startCountdown, 1000);
+
+    </script>
+
+</body>
+
+</html>
